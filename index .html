@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kismat Kumari — Computer Science & AI</title>
+<meta name="description" content="Portfolio of Kismat Kumari, Computer Science & Artificial Intelligence undergraduate.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="cursor-dot" id="cursor-dot"></div>
+<div class="cursor-ring" id="cursor-ring"></div>
+
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="#top" class="logo">KK<span>.</span></a>
+    <nav class="links" id="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#journey">Journey</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div style="display:flex; align-items:center; gap:10px;">
+      <button id="theme-toggle" aria-label="Toggle color theme">🌙</button>
+      <button class="menu-btn" id="menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <canvas id="wave-canvas"></canvas>
+    <div class="hero-inner">
+      <div class="eyebrow-line">COMPUTER SCIENCE &amp; AI ENGINEER</div>
+      <h1>K<span class="accent-letter">i</span>smat Kumari</h1>
+      <p class="role">Building bridges between web development and machine learning. Passionate about full‑stack applications, problem‑solving, and AI‑assisted engineering.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">&lt;/&gt; View Projects</a>
+        <a href="Kismat_Kumari_CV (2).pdf" class="btn btn-ghost" download>&#8595; Download CV</a>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      Scroll to explore
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+    </div>
+  </section>
+
+  <div class="social-rail">
+    <a href="https://github.com/kismatkumari56" target="_blank" rel="noopener" aria-label="GitHub">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-2.1c-3.2.7-3.88-1.36-3.88-1.36-.52-1.34-1.28-1.7-1.28-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.79 0c2.2-1.5 3.17-1.18 3.17-1.18.64 1.6.24 2.76.12 3.05.74.81 1.19 1.84 1.19 3.1 0 4.43-2.7 5.4-5.27 5.68.42.36.78 1.08.78 2.18v3.23c0 .3.21.66.79.55A10.52 10.52 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5z"/></svg>
+    </a>
+    <a href="https://www.linkedin.com/in/kismat-kumari-9743712a1/" target="_blank" rel="noopener" aria-label="LinkedIn">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.24 8.25h4.5V23H.24V8.25zM8.5 8.25h4.31v2.02h.06c.6-1.14 2.08-2.34 4.28-2.34 4.58 0 5.43 3.02 5.43 6.94V23h-4.5v-6.94c0-1.66-.03-3.79-2.31-3.79-2.32 0-2.68 1.81-2.68 3.68V23H8.5V8.25z"/></svg>
+    </a>
+    <a href="mailto:" aria-label="Email">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 6l10 7 10-7"/></svg>
+    </a>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">About</span>
+        <h2>A builder who's currently teaching herself ML</h2>
+      </div>
+      <div class="about-grid">
+        <div>
+          <div class="about-photo">
+            <img src="photo.jpg" alt="Portrait of Kismat Kumari">
+          </div>
+          <p>I'm a sixth‑semester Computer Science &amp; Artificial Intelligence student at Purnea College of Engineering, with hands‑on experience across Python, JavaScript, and full‑stack web development. I like turning ideas into working applications and I'm comfortable with the fundamentals: data structures, problem‑solving, and clean, readable code.</p>
+          <p>Right now I'm actively expanding into machine learning, alongside a growing interest in working with AI‑assisted engineering workflows and research‑driven teams. I'm also confident using AI tools day-to-day — building presentations, analysing data, and coding or debugging faster with them. I bring curiosity, adaptability, and clear technical communication to whatever I build — and I'm looking for a collaborative, fast‑paced environment to grow in.</p>
+        </div>
+        <div class="stat-list">
+          <div class="stat-item"><b>7.51 CGPA</b><span>B.Tech, Computer Science &amp; AI — 6th semester</span></div>
+          <div class="stat-item"><b>8 weeks</b><span>Full‑stack web development internship, Internshala</span></div>
+          <div class="stat-item"><b>93%</b><span>Human‑Computer Interaction, NPTEL SWAYAM</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" style="background: var(--bg-soft);">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Skills</span>
+        <h2>What I work with</h2>
+      </div>
+
+      <div class="skill-group">
+        <h3>Programming languages</h3>
+        <div class="pill-row">
+          <span class="pill">Python</span><span class="pill">C</span><span class="pill">C++</span><span class="pill">JavaScript</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3>Web technologies</h3>
+        <div class="pill-row">
+          <span class="pill">HTML</span><span class="pill">CSS</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3>Databases</h3>
+        <div class="pill-row">
+          <span class="pill">SQL (basics)</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3>Artificial intelligence &amp; machine learning <span class="badge-learning">Currently learning</span></h3>
+        <div class="pill-row">
+          <span class="pill">AI tools &amp; prompting (ChatGPT, Cursor)</span>
+          <span class="pill learning">Machine Learning fundamentals</span>
+          <span class="pill learning">AI‑assisted development</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3>Tools &amp; practices</h3>
+        <div class="pill-row">
+          <span class="pill">VS Code</span><span class="pill">Git (basics)</span><span class="pill">Cursor</span><span class="pill">Streamlit</span><span class="pill">AI‑assisted coding tools</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- JOURNEY: Education + Experience -->
+  <section id="journey">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Journey</span>
+        <h2>Education &amp; experience</h2>
+      </div>
+      <div class="timeline">
+        <div class="t-item">
+          <div class="t-meta">Aug 2023 — Present</div>
+          <h3>B.Tech, Computer Science Engineering &amp; Artificial Intelligence</h3>
+          <div class="t-sub">Purnea College of Engineering, Purnea, Bihar</div>
+          <ul><li>Current CGPA: 7.51 (6th semester)</li></ul>
+        </div>
+        <div class="t-item">
+          <div class="t-meta">8 weeks</div>
+          <h3>Web Developer Intern</h3>
+          <div class="t-sub">Internshala</div>
+          <ul>
+            <li>Completed an intensive 8‑week internship in full‑stack web development, covering front‑end and back‑end fundamentals.</li>
+            <li>Strengthened front‑end design and UI implementation skills using HTML, CSS, and JavaScript.</li>
+          </ul>
+        </div>
+        <div class="t-item">
+          <div class="t-meta">24 Mar — 24 Apr 2026</div>
+          <h3>Artificial Intelligence Intern</h3>
+          <div class="t-sub">Codec Technologies Pvt. Ltd.</div>
+          <ul>
+            <li>Completed a 1‑month AICTE &amp; ICAC approved AI internship, listed on the National Internship Portal.</li>
+          </ul>
+        </div>
+        <div class="t-item">
+          <div class="t-meta">16 Mar — 27 Apr 2026 · 6 weeks</div>
+          <h3>Summer Entrepreneurship‑II Program</h3>
+          <div class="t-sub">Edulogy Institute — Artificial Intelligence track</div>
+          <ul>
+            <li>Completed a 6‑week entrepreneurship program focused on AI, graduating with an A++ grade.</li>
+          </ul>
+        </div>
+        <div class="t-item">
+          <div class="t-meta">Completed</div>
+          <h3>High School</h3>
+          <div class="t-sub">Hari Shankar Nayak High School, Katihar</div>
+          <ul>
+            <li>10th: 82.4%</li>
+            <li>12th: 70.8%</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" style="background: var(--bg-soft);">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Projects</span>
+        <h2>Pulled live from GitHub</h2>
+        <p>This list loads directly from my GitHub repositories, so it stays current as I keep shipping.</p>
+      </div>
+      <div class="proj-controls">
+        <span id="proj-count" style="color:var(--text-faint); font-size:13.5px;"></span>
+        <a href="https://github.com/kismatkumari56" target="_blank" rel="noopener">See everything on GitHub →</a>
+      </div>
+      <div class="project-grid" id="project-grid">
+        <div class="skeleton"></div>
+        <div class="skeleton"></div>
+        <div class="skeleton"></div>
+        <div class="skeleton"></div>
+      </div>
+      <p class="proj-note" id="proj-note"></p>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Certifications</span>
+        <h2>Coursework I've completed</h2>
+      </div>
+      <div class="cert-list cert-grid">
+        <div class="cert-item">
+          <div>
+            <h3>Human‑Computer Interaction</h3>
+            <span class="org">NPTEL SWAYAM</span>
+          </div>
+          <div class="cert-score">93%</div>
+        </div>
+        <div class="cert-item">
+          <div>
+            <h3>The Joy of Computing using Python</h3>
+            <span class="org">NPTEL SWAYAM</span>
+          </div>
+          <div class="cert-score">67%</div>
+        </div>
+        <div class="cert-item">
+          <div>
+            <h3>AI Interview Certification</h3>
+            <span class="org">micro1</span>
+          </div>
+          <div class="cert-score">Certified</div>
+        </div>
+        <div class="cert-item">
+          <div>
+            <h3>Technology Job Simulation</h3>
+            <span class="org">Deloitte, via Forage</span>
+          </div>
+          <div class="cert-score">Completed</div>
+        </div>
+        <div class="cert-item">
+          <div>
+            <h3>Web Development Course</h3>
+            <span class="org">Skill India · NSDC, via Internshala Trainings</span>
+          </div>
+          <div class="cert-score">Grade B</div>
+        </div>
+        <div class="cert-item">
+          <div>
+            <h3>AI Tools &amp; ChatGPT Workshop</h3>
+            <span class="org">be10x</span>
+          </div>
+          <div class="cert-score">Verified</div>
+        </div>
+      </div>
+
+      <div class="section-head" style="margin-top:56px;">
+        <span class="kicker">Interests</span>
+        <h2>What keeps me curious</h2>
+      </div>
+      <div class="interest-row">
+        <span class="interest-pill">Artificial Intelligence</span>
+        <span class="interest-pill">Machine Learning</span>
+        <span class="interest-pill">Web Development</span>
+        <span class="interest-pill">Problem Solving</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" style="background: var(--bg-soft);">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Contact</span>
+        <h2>Let's work together</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p>Open to internships, collaborations, and junior developer roles. The fastest way to reach me is by phone or email — or send a note through the form.</p>
+          <ul class="contact-links">
+            <li>📞 <a href="tel:+917004922395">+91 70049 22395</a></li>
+            <li>📍 <span>Purnea, Bihar, India</span></li>
+            <li>💻 <a href="https://github.com/kismatkumari56" target="_blank" rel="noopener">github.com/kismatkumari56</a></li>
+            <li>🔗 <a href="https://www.linkedin.com/in/kismat-kumari-9743712a1/" target="_blank" rel="noopener">linkedin.com/in/kismat-kumari</a></li>
+          </ul>
+        </div>
+        <form id="contact-form">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="align-self:flex-start;">Send message</button>
+          <p class="form-status" id="form-status"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  © <span id="year"></span> Kismat Kumari. Built with HTML, CSS &amp; JavaScript.
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
